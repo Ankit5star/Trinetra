@@ -26,7 +26,7 @@ photo_filename = None
 
 # db conn
 def connect_db():
-    return mysql.connector.connect(host="localhost", user="root", password="An@829206", database="mca_2025")
+    return mysql.connector.connect(host="localhost", user="root", password="Pass121", database="mca_2025")
 
 # send email funnction
 def send_email_with_emailjs(from_name, user_email, emer_email, location):
